@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #424764;
+    
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 900px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+    
+}
+.content{
+    height: 75%;
+    background-color: chocolate;
+}
+.content:nth-child(1)
+{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows:50% 50% ;
+    border-radius: 20px;
+    background-color: chocolate;
+}
+.menu{
+    background-color: chocolate;
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.Settings ,.logout
+{
+        width:100%;
+        display: grid;
+        background-color: chocolate;
+        border-bottom: 0.5px solid #424764;
+        align-items: center;
+        place-items: center;
+        height: 20%;
+    
+}
+.Settings{
+    margin-top: 45%;
+}
+.Settings:hover{
+    cursor: pointer;
+}
+.logout:hover{
+    cursor: pointer;
+}
+
+.info{
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: chocolate;
+    
+}
+.image
+{
+    background-color: chocolate;
+    
+}
+.information{
+    background-color: chocolate;
+    margin-top: 2%;
+}
+.info img{
+    border: 5px solid white;
+    height: 80%;
+    width: 55%;
+    border-radius: 50%;
+    margin-left: 19%;
+    margin-top: 10%;
+}
+label{
+    background-color: chocolate;
+}
+.information{
+    
+    padding-top: 10%;
+    padding-left: 5%;
+    
+    
+}
+p{
+    background-color:chocolate;
+}
+
+.content:nth-child(2)
+{
+    margin-left: 1%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 675px;
+    font-size: 25px;
+    
+}
+.academics{
+    width:40%;
+    display: grid;
+    background-color: #ffffff;
+    border: 2px solid #424764;
+    align-items: center;
+    place-items: center;
+    margin-left: 30%;
+    height: 50%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.academics:hover{
+        box-shadow: 0 0 15px #424764;
+}
+.placements:hover{
+    box-shadow: 0 0 15px #424764;
+}
+.placements{
+    width:40%;
+    display: grid;
+    background-color: #ffffff;
+    border: 2px solid #424764;
+    align-items: center;
+    place-items: center;
+    margin-left: 30%;
+    height: 50%;
+    border-radius: 20px;
+
+
+    
+}
