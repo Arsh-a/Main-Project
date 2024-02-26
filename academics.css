@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-rows: 25% 25% 50%;
+    height: 85vh;
+    background-color: aqua;
+    width: 90vw;
+    border-radius: 1vw;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.row1{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+.info,.currentCgpa,.previousSgpa{
+    border-radius: 1vw;
+    margin: 1.6%;
+}
+.info{
+    background-color: bisque;
+}
+.currentCgpa{
+    background-color: chocolate;
+}
+.previousSgpa{
+    background-color: chartreuse;
+}
+.row2{
+    margin-top: 1%;
+    margin-left: 1.7%;
+    margin-right: 1.2%;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 0.8vw;
+}
+.activeBacklogs,
+.pastBacklogs,
+.credits,
+.position
+{
+    border-radius: 1vw;
+}
+.activeBacklogs{
+    background-color: blue;
+}
+.pastBacklogs{
+    background-color: blueviolet;
+}
+.credits{
+    background-color: yellowgreen;
+}
+.position{
+    background-color: coral;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 73.5% 24%;
+    margin-top: 1%;
+    margin-left: 1.7%;
+    margin-right: 1.2%;
+    margin-bottom: 1.5%;
+    grid-gap: 1vw;
+}
+.graph,
+.link{
+    border-radius: 1vw;
+}
+    .graph{
+        background-color: cornflowerblue;
+    }
+    .link{
+        background-color: crimson;
+    }

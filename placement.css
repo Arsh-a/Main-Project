@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: 30% 68%;
+    height: 93vh;
+    margin-top: 1.5%;
+    margin-left: 11%;
+    width: 80vw;
+    background-color: #b22138;
+    border-radius: 2vw;
+}
+.col1{
+    display: grid;
+    grid-template-rows: 30% 62%;
+    grid-gap: 1vh;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.info{
+    background-color: blue;
+    border-radius: 2vw;
+}
+.status{
+    background-color: blueviolet;
+    border-radius: 2vw;
+}
+.col2{
+    display: grid;
+    grid-template-rows: 60% 31.5%;
+    grid-gap: 1vh;
+    margin-left: 1vh;
+    margin-top: 4%;
+}
+.noti{
+    background-color: cadetblue;
+    border-radius: 2vw;
+}
+.resume{
+    background-color: coral;
+    border-radius: 2vw;
+}
+.info,
+.status,
+.noti,
+.resume
+{
+    background-color: beige;
+}
